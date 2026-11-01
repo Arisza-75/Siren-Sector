@@ -1,0 +1,52 @@
+{  
+  	"id":"azur_siren_MainGun",  # this id must match what's in the spreadsheet
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "Arisza.antix.combat.weaponeffects.SirenMainGunEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "displayArcRadius": 550,
+  "turretSprite":"graphics/weapons/siren/azur_siren_naval_gun.png",
+  "hardpointSprite":"graphics/weapons/siren/azur_siren_naval_gun.png",
+	#"convergeOnPoint":true,
+  "width": 10,
+  "glowColor": [
+    255,
+    100,
+    100,
+    255
+  ],
+  "hitGlowRadius": 100,
+  "turretOffsets": [
+    35,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    155,
+    0,
+    0,
+    0
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    0
+  ],
+  "textureType": ROUGH,
+  "textureScrollSpeed": 260,
+  "pixelsPerTexel": 5,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
+  "fireSoundTwo": "needler_fire"
+}

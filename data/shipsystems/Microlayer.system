@@ -1,0 +1,8 @@
+{
+	"id":"azur_microlayer",
+	"type":"WEAPON",
+	"aiType":"CANISTER_FLAK",
+	
+	"weaponDataId":"azur_microlayer_launcher",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

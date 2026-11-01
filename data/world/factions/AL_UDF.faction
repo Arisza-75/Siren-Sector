@@ -1,0 +1,314 @@
+{
+	"id":"AZUR_AL_UDF",
+	"color":[110,255,255,255],
+	"secondaryUIColor":[69,79,89,255],
+    "secondarySegments":6,
+	"baseUIColor": [110,255,255,255],
+    "darkUIColor": [51,64,88,255],
+    "gridUIColor": [15,213,223,255],	
+
+#	"color":[15,213,223,255],
+#	"secondaryUIColor":[51,64,88,255],
+ #   "secondarySegments":6,
+#	"baseUIColor": [15,213,223,255],
+ #   "darkUIColor": [51,64,88,255],
+  #  "gridUIColor": [15,213,223,255],	
+	"displayName":"United Council",
+	"displayNameWithArticle":"United Council",
+	"displayNameLong":"United Council",
+	"entityNamePrefix":"United Council",
+	"displayNameLongWithArticle":"The United Council",
+	"entityName":"United Council",
+	"personNamePrefix":"",
+	"personNamePrefixAOrAn":"a",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/factions/UDFflag.png",
+	"crest":"graphics/factions/UDFcrest.png",
+	"shipNamePrefix":"UCNF",
+	"shipNameSources":{
+		"JAPANESE":5,
+		"NORSE":4,
+		"CELTIC":3,
+		"GERMANIC":3,
+	},
+	"description":"No description yet.",
+	"names":{
+		"ai":2,
+		"world":1,
+		"future":1,
+	},
+	
+	"music":{
+
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		"udf_bp":1,
+		"META":0.3,
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+
+
+		],
+	},
+	"knownShips":{
+		"tags":["udf_bp"],
+		"hulls":[
+	
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["udf_bp"],
+		"hulls":[
+
+		],
+	},
+	"knownFighters":{
+		"tags":["udf_bp"],
+		"fighters":[
+
+		],
+	},
+	"priorityFighters":{
+		"tags":["udf_bp"],
+		"fighters":[
+
+		],
+	},
+	"knownWeapons":{
+		"tags":["udf_bp"],
+		"weapons":[
+					"pdlaser",
+			"taclaser",
+			"ioncannon",
+			"irpulse",
+			"lrpdlaser",
+			"pdburst",
+			"amblaster",
+			
+			"phasebeam",
+			"gravitonbeam",
+			"pulselaser",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			
+			"plasma",
+			"hil",
+			"autopulse",
+			"guardian",
+			"tachyonlance",
+			
+			
+			"reaper",
+			"atropos",
+			"atropos_single",
+			"swarmer",
+			"annihilator",
+			"heatseeker",
+			"harpoon",
+			"harpoon_single",
+			"breach",
+			"sabot",
+			"sabot_single",
+			
+			"harpoonpod",
+			"breachpod",
+			"sabotpod",
+			"salamanderpod",
+			"phasecl",
+			"typhoon",
+			
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			
+			"railgun",
+			"lightneedler",
+			"hveldriver",
+			"heavyneedler",
+			"mjolnir",
+			"multineedler",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[udf_bp],
+		"weapons":[
+
+		],
+	},
+	"knownHullMods":{
+		"tags":[udf_bp],
+		"hullMods":[
+			
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":3,
+		"phaseShips":2,
+		
+		"officerQuality":5,
+		"shipQuality":4,
+		"numShips":3,
+		
+		"shipSize":4,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0.3,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.2,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.3,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.2,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+		
+
+	},
+	
+	
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+	],
+
+"portraits":{
+		"standard_male":[
+			"graphics/portraits/azur_portrait_generic.png",
+		],
+		"standard_female":[
+			"graphics/portraits/EoP/military_10.png",		
+
+		],
+	},
+	
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Council"},
+			
+			"citizen":{"name":"ENforcer"},
+			"agent":{"name":"Agent"},
+			"specialAgent":{"name":"Special Agent"},
+			"spaceEnsign":{"name":"Esign"},
+			"spaceLieutenant":{"name":"Lieutenant"},
+			"spaceCommander":{"name":"Commander"},
+			"spaceCaptain":{"name":"Captain"},
+			"spaceAdmiral":{"name":"Admiral"},
+			"spaceMarshal":{"name":"High Command"},
+		
+			"groundPrivate":{"name":"Enforcer-class Siren"},
+			"groundSergeant":{"name":"Experimentation-class Siren"},
+			"groundLieutenant":{"name":"Enforcer-class Siren"},
+			"groundCaptain":{"name":"Type_04 Command Unit"},
+			"groundMajor":{"name":"Major"},
+			"groundColonel":{"name":"Colonel"},
+			"groundGeneral":{"name":"TYPE_ZERO Strategist Unit"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Council"},
+			"patrolCommander":{"name":"Lieutenant"},
+			"fleetCommander":{"name":"Fleet Commander"},
+			"baseCommander":{"name":"base Operations Commander"},
+			"stationCommander":{"name":"Starbase Commander"},
+			"outpostCommander":{"name":"Outpost Command Unit"},
+			"portmaster":{"name":"Port Operations"},
+		
+			"supplyOfficer":{"name":"Logistics command unit"},
+			"supplyManager":{"name":"Supply Manager"},
+			"medicalSupplier":{"name":"Medical Supplier"},
+			"administrator":{"name":"Administration Unit"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"faithful":5,		
+			"spacer":10,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"business":10,
+			"official":5,	
+		},
+		"HIGH":{
+			"soldier":10,
+			"faithful":5,
+			"official":10,
+		},
+	},
+	"custom":{
+		"allowsTransponderOffTrade":true,
+		"offersCommissions":True,
+		"engagesInHostilities":false,
+		"buysAICores":true,
+		"AICoreValueMult":4,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":false,
+		"caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":false,
+		},
+	},
+	
+	"fleetTypeNames":{
+		
+		
+		"scavengerSmall":"Wreckage Survey Unit",
+		"scavengerMedium":"Salvage Fleet",
+		"scavengerHeavy":"Large-scale Salvage Operation",
+		
+		
+		"inspectionFleet":"Inspection Unit",
+		"taskForce":"Special Strike Fleet",
+		
+		"trade":"Merchent Convoy",
+		"tradeLiner":"Liner Convoy",
+		"tradeSmuggler":"Blocakde Runners",
+		"smallTrader":"Trader",
+		
+		"battlestation":"Fortress",
+		
+		"patrolSmall":"Mobile Security Squadron",
+		"patrolMedium":"Force Projection",
+		"patrolLarge":"Battle Fleet",
+		
+		"foodReliefFleet":"Relief Convoy",
+		
+		"mercScout":"Hunter-Seeker",
+		"mercBountyHunter":"Hunter Fleet",
+		"mercPrivateer":"Privateer",
+		"mercPatrol":"PMC Patrol Unit",
+		"mercArmada":"PMC Fleet",
+	},
+	
+
+
+
+},	

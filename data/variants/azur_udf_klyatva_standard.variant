@@ -1,0 +1,61 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "azur_udf_klyatva",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "azur_udf_klyatva_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "azur_udf_Light_swarm",
+                "WS 012": "azur_udf_Light_swarm",
+                "WS 011": "azur_udf_Light_swarm",
+                "WS 014": "azur_udf_Light_swarm",
+                "WS 013": "azur_udf_Light_swarm",
+                "WS 010": "azur_udf_Light_swarm",
+                "WS 024": "udf_MainGunL"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 020": "azur_udf_scattergun",
+                "WS 021": "azur_udf_scattergun",
+                "WS 016": "azur_udf_scattergun",
+                "WS 018": "azur_udf_scattergun",
+                "WS 019": "azur_udf_scattergun",
+                "WS 017": "azur_udf_scattergun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "azur_udf_yamatoGun",
+                "WS 002": "azur_udf_yamatoGun",
+                "WS 001": "azur_udf_yamatoGun",
+                "WS 000": "azur_udf_yamatoGun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "azur_udf_lightdual",
+                "WS 008": "azur_udf_lightdual",
+                "WS 022": "azur_udf_lightdual",
+                "WS 023": "azur_udf_lightdual",
+                "WS 005": "azur_udf_lightdual",
+                "WS 004": "azur_udf_lightdual",
+                "WS 006": "azur_udf_lightdual",
+                "WS 009": "azur_udf_lightdual"
+            }
+        }
+    ]
+}

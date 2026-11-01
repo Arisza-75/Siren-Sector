@@ -1,0 +1,22 @@
+{
+    "displayName": "",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "azur_xvi_drone",
+    "hullMods": [],
+    "permaMods": [
+        "azur_droneEMP"
+    ],
+    "quality": 0.0,
+    "variantId": "azur_xvi_drone_wpn",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "gravitonbeam"
+            }
+        }
+    ]
+}

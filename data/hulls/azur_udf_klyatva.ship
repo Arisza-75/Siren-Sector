@@ -1,0 +1,414 @@
+{
+    "hullName": "Klyatva",
+    "hullId": "azur_udf_klyatva",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "AZUR_UDF",
+    "spriteName": "graphics/ships/UDF/azur_udf_klyatva.png",
+    "height": 566,
+    "width": 152,
+    "center": [
+        76, 283
+    ],
+    "collisionRadius": 320.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 383.5,
+    "viewOffset": 0,
+    "builtInWeapons": {
+        "WS 024": "udf_MainGunL"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 270,
+            "locations": [
+                      87,      -35
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                      87,       35
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 270,
+            "locations": [
+                       2,      -35
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                       2,       35
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 110,
+            "angle": 90,
+            "locations": [
+                    -111,       42
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 110,
+            "angle": 270,
+            "locations": [
+                    -111,      -42
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                     -63,       55
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 270,
+            "locations": [
+                     -63,      -55
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 270,
+            "locations": [
+                     -37,      -55
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                     -37,       55
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 90,
+            "locations": [
+                      67,       56
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 270,
+            "locations": [
+                      67,      -56
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 270,
+            "locations": [
+                      43,      -56
+            ]
+        },
+        {
+            "id": "WS 013",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 90,
+            "locations": [
+                      43,       56
+            ]
+        },
+        {
+            "id": "WS 014",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 90,
+            "locations": [
+                      20,       56
+            ]
+        },
+        {
+            "id": "WS 015",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 270,
+            "locations": [
+                      20,      -56
+            ]
+        },
+        {
+            "id": "WS 016",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "renderOrderMod": 50,
+            "arc": 90,
+            "angle": 270,
+            "locations": [
+                    43.5,      -20
+            ]
+        },
+        {
+            "id": "WS 017",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "renderOrderMod": 50,
+            "arc": 90,
+            "angle": 90,
+            "locations": [
+                    43.5,       20
+            ]
+        },
+        {
+            "id": "WS 018",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "renderOrderMod": 50,
+            "arc": 120,
+            "angle": 270,
+            "locations": [
+                     -78,      -37
+            ]
+        },
+        {
+            "id": "WS 019",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "renderOrderMod": 50,
+            "arc": 120,
+            "angle": 90,
+            "locations": [
+                     -78,       37
+            ]
+        },
+        {
+            "id": "WS 020",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 270,
+            "locations": [
+                     -34,      -34
+            ]
+        },
+        {
+            "id": "WS 021",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 90,
+            "locations": [
+                     -34,       34
+            ]
+        },
+        {
+            "id": "WS 022",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 46,
+            "angle": 180,
+            "locations": [
+                    -210,       25
+            ]
+        },
+        {
+            "id": "WS 023",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 46,
+            "angle": 180,
+            "locations": [
+                    -210,      -25
+            ]
+        },
+        {
+            "id": "WS 024",
+            "size": "LARGE",
+            "type": "BUILT_IN",
+            "mount": "TURRET",
+            "arc": 240,
+            "angle": 0,
+            "locations": [
+                   265.5,        0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -256.5, -31
+            ],
+            "length": 190,
+            "width": 50,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "AZUR_UDF_ENGINE"
+        },
+        {
+            "location": [
+                -256.5, 31
+            ],
+            "length": 190,
+            "width": 50,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "AZUR_UDF_ENGINE"
+        },
+        {
+            "location": [
+                -256.5, -60
+            ],
+            "length": 80,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "AZUR_UDF_ENGINE"
+        },
+        {
+            "location": [
+                -256.5, 60
+            ],
+            "length": 80,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "AZUR_UDF_ENGINE"
+        }
+    ],
+    "bounds": [
+            -218,       13,
+            -259,       14,
+            -258,     45.5,
+            -278,       49,
+          -257.5,     53.5,
+        
+          -255.5,       65,
+          -220.5,       65,
+            -168,     72.5,
+             -95,       74,
+          -130.5,       59,
+        
+          -118.5,       48,
+           -91.5,     46.5,
+           -70.5,       62,
+             -29,       61,
+             -23,     56.5,
+        
+            -9.5,     56.5,
+             0.5,       61,
+              77,     61.5,
+             103,     52.5,
+           117.5,       53,
+        
+           235.5,       54,
+           243.5,     48.5,
+             183,       47,
+           199.5,     39.5,
+           199.5,     11.5,
+        
+             214,      4.5,
+             234,      4.5,
+             234,     -4.5,
+             214,     -4.5,
+           199.5,    -11.5,
+        
+           199.5,    -39.5,
+             183,      -47,
+           243.5,    -48.5,
+           235.5,      -54,
+           117.5,      -53,
+        
+             103,    -52.5,
+              77,    -61.5,
+             0.5,      -61,
+            -9.5,    -56.5,
+             -23,    -56.5,
+        
+             -29,      -61,
+           -70.5,      -62,
+           -91.5,    -46.5,
+          -118.5,      -48,
+          -130.5,      -59,
+        
+             -95,      -74,
+            -168,    -72.5,
+          -220.5,      -65,
+          -255.5,      -65,
+          -257.5,    -53.5,
+        
+            -278,      -49,
+            -258,    -45.5,
+            -259,      -14,
+            -218,      -13
+    # 54 points total.
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":false,
+	"asteroidMiningFleetName":"Asteorid Mining Fleet",
+    "gasMiningFleetName":"Gas Harvester Fleet",
+    "invasionFleetName":"Invasion Protocol",
+    "responseFleetName":"Council Defense Protocol",
+    "invasionSupportFleetName":"Strike Support Squadron",
+	"suppressionFleetName":"Suppresion Protocol",
+    "defenceFleetName":"Defense Fleet",
+	"noSyncRelations":true,
+	"noStartingContact":false,
+	
+    "rebelFleetSuffix":"Defectors",
+    
+    "directoryUseShortName":true,
+
+    "startRelationships":{
+
+	"diableavionics":-0.5, 
+	"al_ars":0.3,
+	"SCY":0.3,
+    "independent":0.8,
+    "ORA":0.3,
+	"ryaz":6.0,
+	"uaf":4.0,
+	"batavia":2.0,
+	"ae_ixbattlegroup":-0.9, 
+	"tritachyon":-0.1, 
+	"sylphon":0.3,
+	"tahlan_legioinfernalis":-0.8
+	
+ 
+    },
+
+    "morality":"good",
+
+    "diplomacyTraits":["stalwart","likes_ai","lowprofile","helps_allies"],
+
+    "alignments":{
+            "Technocratic":1,
+            "militarist":1,
+			"corporate":0.1,
+            "diplomatic":0.7
+    },
+
+    "isPirateNeutral":false,
+
+    "vengeanceLevelNames":["Warefare Initiation", "Strike Authtoriztion", "Full Termination"],
+    "vengeanceFleetNames":["Attack", "Strike", "War"],
+    "vengeanceFleetNamesSingle":["an Attack Squadron", "a Strike Force", "a War Fleet"],
+
+ 
+    
+    "startShipsSolo":[
+		["atlas_Standard"]
+    ],
+
+    "startShipsCombatSmall":[
+		["atlas_Standard"]
+    ],
+
+    "startShipsCombatLarge":[
+		["atlas_Standard"]
+    ],
+
+    "startShipsTradeSmall":[
+	["atlas_Standard"]
+    ],
+	"startShipsTradeLarge":[
+	["atlas_Standard"]
+	],
+	"startShipsCarrierSmall":[
+	["atlas_Standard"]
+    ],
+
+    "startShipsCarrierLarge":[
+	["atlas_Standard"]
+    ],
+
+    "startShipsSuper":[
+		["azur_udf_flagship"]
+    ],
+	"startShipsGrandFleet":[
+	["azur_udf_flagship"]
+    ],	
+	 "startSpecialItems":[
+        [["high_tech_package", ""]], [["low_tech_package", ""]]
+    ],
+
+       
+ 
+
+
+   
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"militarybase", "mult":0.02},
+		{"id":"fuelprod", "mult":0.05}
+    ],
+
+    "bonusSeeds":[
+        {"id":"nanoforge_pristine", "count":1}
+      
+    ]
+}

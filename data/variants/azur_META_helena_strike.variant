@@ -1,0 +1,38 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 26,
+    "fluxVents": 27,
+    "goalVariant": true,
+    "hullId": "azur_META_helena",
+    "hullMods": [
+        "auxiliarythrusters",
+        "high_scatter_amp"
+    ],
+    "variantId": "azur_META_helena_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "azur_udf_lightdual",
+                "WS 006": "azur_udf_lightdual",
+                "WS 000": "azur_siren_triple",
+                "WS 001": "azur_siren_triple",
+                "WS 002": "azur_siren_triple"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "azur_udf_lightdual",
+                "WS 004": "azur_udf_lightdual"
+            }
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "hullName": "Heavy Fighter",
+    "hullId": "azur_udf_heavyfighter",
+    "hullSize": "FIGHTER",
+    "style": "AZUR_UDF",
+    "spriteName": "graphics/ships/fighters/azur_udf_heavy_fighter.png",
+    "height": 56,
+    "width": 64,
+    "center": [
+        32, 28
+    ],
+    "collisionRadius": 46.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 48,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -6.5,        0
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 6,
+            "angle": 3.5,
+            "locations": [
+                     3.5,     -9.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 6,
+            "angle": 356.5,
+            "locations": [
+                     3.5,      9.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -19, 0
+            ],
+            "length": 50,
+            "width": 25,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "AZUR_UDF_ENGINE"
+        }
+    ],
+    "bounds": [
+           -23.5,      7.5,
+             -11,      7.5,
+            -6.5,       29,
+               5,      6.5,
+              27,        0,
+        
+               5,     -6.5,
+            -6.5,      -29,
+             -11,     -7.5,
+           -23.5,     -7.5
+    ]
+}

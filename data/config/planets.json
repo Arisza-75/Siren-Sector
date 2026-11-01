@@ -1,0 +1,45 @@
+{
+	
+"azur_black_sun":{
+		"name":"Black Sun",
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[0,0,0,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":10, #  minimum thickness in pixels
+		"atmosphereColor":[255,187,85,255],
+		"texture":"graphics/planets/star_texture_yellow.jpg",
+		"icon":"graphics/warroom/icon_star.png",
+		"iconColor":[255,187,85,255],
+		"starCoronaSprite":"graphics/fx/star_halo.png", # optional, defaults to really bright particle
+		"starCoronaColor":[255,200,85,60], # optional, defaults to white
+		"starCoronaSizeMult":5.12, # required, multiplier for star's radius
+		"isStar":true,
+		"lightPosition":[0,0,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+},
+
+"azur_moon_shadow":{
+		"name":"Spectral Moon",
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":5, #  minimum thickness in pixels
+		"atmosphereColor":[170,255,255,255],
+		"texture":"graphics/planets/moon_shadow.png",
+		"icon":"graphics/warroom/icon_star.png",
+		"iconColor":[170,255,255,255],
+		"starCoronaSprite":"graphics/planets/moon_halo.png", # optional, defaults to really bright particle
+		"starCoronaColor":[170,255,255,255], # optional, defaults to white
+		"starCoronaSizeMult":5.12, # required, multiplier for star's radius
+		"isStar":true,
+		"lightPosition":[0,0,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+}
+}
+
+
+
+
+

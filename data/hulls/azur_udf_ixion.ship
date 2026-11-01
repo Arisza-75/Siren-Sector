@@ -1,0 +1,212 @@
+{
+    "hullName": "Ixion",
+    "hullId": "azur_udf_ixion",
+    "hullSize": "DESTROYER",
+    "style": "AZUR_UDF",
+    "spriteName": "graphics/ships/UDF/azur_udf_ixion.png",
+    "height": 157,
+    "width": 148,
+    "center": [
+        74, 78.5
+    ],
+    "collisionRadius": 135.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 110,
+    "viewOffset": 0,
+    "builtInWeapons": {
+        "WS 002": "shockrepeater",
+        "WS 000": "shockrepeater",
+        "WS 003": "shockrepeater",
+        "WS 001": "shockrepeater"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "BUILT_IN",
+            "mount": "HIDDEN",
+            "arc": 150,
+            "angle": -90,
+            "locations": [
+                      30,    -67.5
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "BUILT_IN",
+            "mount": "HIDDEN",
+            "arc": 150,
+            "angle": 90,
+            "locations": [
+                      30,     67.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "BUILT_IN",
+            "mount": "HIDDEN",
+            "arc": 150,
+            "angle": -90,
+            "locations": [
+                       6,    -67.5
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "BUILT_IN",
+            "mount": "HIDDEN",
+            "arc": 150,
+            "angle": 90,
+            "locations": [
+                       6,     67.5
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    60.5,    -28.5,
+                    67.5,      -36,
+                    67.5,    -22.5
+            ]
+        },
+        {
+            "id": "LB 001",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    60.5,     28.5,
+                    67.5,     22.5,
+                    67.5,       36
+            ]
+        },
+        {
+            "id": "LB 002",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      61,        0,
+                    67.5,        5,
+                    67.5,       -5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -17, -65.5
+            ],
+            "length": 40,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -17, 65.5
+            ],
+            "length": 40,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -26.5, -16.5
+            ],
+            "length": 40,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -26.5, 16.5
+            ],
+            "length": 40,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                8.5, -16
+            ],
+            "length": 40,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                8.5, 16
+            ],
+            "length": 40,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        }
+    ],
+    "bounds": [
+             -33,      9.5,
+             -33,     23.5,
+             -76,       25,
+             -76,       36,
+             -33,     38.5,
+        
+             -33,     56.5,
+              12,     56.5,
+              12,     64.5,
+             -18,       67,
+              18,       72,
+        
+            41.5,     71.5,
+            41.5,       65,
+            20.5,       65,
+            21.5,     56.5,
+              61,     56.5,
+        
+              61,    -56.5,
+            21.5,    -56.5,
+            20.5,      -65,
+            41.5,      -65,
+            41.5,    -71.5,
+        
+              18,      -72,
+             -18,      -67,
+              12,    -64.5,
+              12,    -56.5,
+             -33,    -56.5,
+        
+             -33,    -38.5,
+             -76,      -36,
+             -76,      -25,
+             -33,    -23.5,
+             -33,     -9.5
+    # 30 points total.
+    ]
+}

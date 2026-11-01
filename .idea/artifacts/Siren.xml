@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Siren">
+    <output-path>$PROJECT_DIR$/jars</output-path>
+    <root id="archive" name="Siren.jar">
+      <element id="library" level="project" name="starfarer.api" />
+      <element id="library" level="project" name="MagicLib" />
+      <element id="library" level="project" name="ExerelinCore" />
+      <element id="library" level="project" name="Graphics" />
+      <element id="library" level="project" name="lwjgl" />
+      <element id="library" level="project" name="lwjgl_util" />
+      <element id="library" level="project" name="LazyLib" />
+      <element id="library" level="project" name="commons-compiler" />
+      <element id="module-output" name="Siren Sector" />
+    </root>
+  </artifact>
+</component>

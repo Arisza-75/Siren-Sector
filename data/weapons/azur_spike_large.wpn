@@ -1,0 +1,42 @@
+{
+	"id":"azur_spike_large",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"MISSILE",
+	"size":"LARGE",
+  "turretSprite": "graphics/weapons/tower/azur_spike_large.png",
+"turretGlowSprite": "graphics/weapons/tower/azur_spike_large_glow.png",
+	"hardpointSprite":"graphics/weapons/tower/azur_spike_large.png",
+	"hardpointGlowSprite":"graphics/weapons/tower/azur_spike_large_glow.png",	
+	"glowColor":[51,205,105,200], #255
+	"renderHints":[RENDER_LOADED_MISSILES, RENDER_BARREL_BELOW],
+  "turretOffsets": [
+    22.5,
+    11.5,
+    22.5,
+    -11.5
+  ],
+	"turretAngleOffsets":[0, 0],
+  "hardpointOffsets": [
+    22.5,
+    11.5,
+    22.5,
+    -11.5
+  ],
+	"hardpointAngleOffsets":[0, 0],
+	"barrelMode":"ALTERNATING", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
+	#"animationType":"MUZZLE_FLASH",
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":-70.0,   # only used if animationType = MUZZLE_FLASH
+					 "spread":2.0,
+					 "particleSizeMin":8.0,
+					 "particleSizeRange":14.0,
+					 "particleDuration":0.25,
+					 "particleCount":24,
+					 #"particleColor":[245,215,170,255]},
+					#"particleColor":[245,185,170,255]},
+					"particleColor":[51,205,105,255]},
+	"projectileSpecId":"azur_spike_torp",  # projectile that will be fired
+	#"stopPreviousFireSound":true,
+	#"fadePreviousFireSound":0.05,
+	"fireSoundTwo":"neoferric_quadcoil_fire",
+}

@@ -1,0 +1,73 @@
+{
+    "hullName": "nebula lantern",
+    "hullId": "azur_xvi_drone",
+    "hullSize": "FIGHTER",
+    "style": "AZUR_META_BLUE",
+    "spriteName": "graphics/ships/fighters/azur_xvi_drone.png",
+    "height": 21,
+    "width": 18,
+    "center": [
+        9, 10.5
+    ],
+    "collisionRadius": 11.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 14,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                       2,        0
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -23.5,       35
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -3, -2.5
+            ],
+            "length": 10,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "AZUR_CYBER"
+        },
+        {
+            "location": [
+                -3, 2.5
+            ],
+            "length": 10,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "AZUR_CYBER"
+        }
+    ],
+    "bounds": [
+             9.5,        0,
+              -3,     -5.5,
+              -9,        0,
+              -3,      5.5
+    ]
+}

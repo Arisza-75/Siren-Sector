@@ -1,0 +1,107 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 23,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "azur_udf_flagship",
+    "hullMods": [
+        "missleracks",
+        "ecm",
+        "eccm"
+    ],
+    "permaMods": [
+        "bdeck"
+    ],
+    "quality": 0.0,
+    "variantId": "azur_udf_flagship_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 042": "azur_udf_lightdual",
+                "WS 039": "azur_udf_lightdual",
+                "WS 038": "azur_udf_lightdual",
+                "WS 043": "azur_udf_lightdual"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 040": "azur_orochi_launcher",
+                "WS 041": "azur_orochi_launcher"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "azur_udf_Light_swarm",
+                "WS 002": "azur_udf_Light_swarm",
+                "WS 004": "azur_udf_Light_swarm",
+                "WS 006": "azur_udf_Light_swarm",
+                "WS 007": "azur_udf_Light_swarm",
+                "WS 001": "azur_udf_Light_swarm",
+                "WS 003": "azur_udf_Light_swarm",
+                "WS 005": "azur_udf_Light_swarm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 019": "azur_udf_lightdual",
+                "WS 017": "azur_udf_lightdual",
+                "WS 021": "azur_udf_lightdual",
+                "WS 023": "azur_udf_lightdual",
+                "WS 025": "azur_udf_lightdual",
+                "WS 028": "azur_udf_lightdual",
+                "WS 026": "azur_udf_lightdual",
+                "WS 024": "azur_udf_lightdual",
+                "WS 022": "azur_udf_lightdual",
+                "WS 020": "azur_udf_lightdual",
+                "WS 018": "azur_udf_lightdual",
+                "WS 016": "azur_udf_lightdual",
+                "WS 037": "azur_udf_lightdual",
+                "WS 036": "azur_udf_lightdual",
+                "WS 029": "azur_udf_lightdual",
+                "WS 027": "azur_udf_lightdual",
+                "WS 033": "azur_udf_lightdual",
+                "WS 031": "azur_udf_lightdual",
+                "WS 030": "azur_udf_lightdual",
+                "WS 032": "azur_udf_lightdual",
+                "WS 015": "azur_udf_lightdual",
+                "WS 014": "azur_udf_lightdual"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "azur_udf_scattergun",
+                "WS 010": "azur_udf_scattergun",
+                "WS 012": "azur_udf_scattergun",
+                "WS 013": "azur_udf_scattergun",
+                "WS 011": "azur_udf_scattergun",
+                "WS 009": "azur_udf_scattergun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 034": "azur_udf_yamatoGun",
+                "WS 035": "azur_udf_yamatoGun"
+            }
+        }
+    ],
+    "wings": [
+        "azur_xvi_drone_wing",
+        "azur_udf_bomber_wing",
+        "azur_udf_bomber_wing",
+        "azur_udf_heavyfighter_wing",
+        "azur_udf_heavyfighter_wing",
+        "azur_udf_heavyfighter_wing"
+    ]
+}

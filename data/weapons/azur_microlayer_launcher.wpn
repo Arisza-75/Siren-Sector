@@ -1,0 +1,30 @@
+{
+	"id":"azur_microlayer_launcher",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"SYNERGY",
+	"size":"SMALL",
+	"turretSprite":"",
+	"turretUnderSprite":"",
+	"turretGlowSprite":"graphics/weapons/swarm_launcher_turret_glow.png",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/weapons/swarm_launcher_hardpoint_glow.png",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"hardpointUnderSprite":"",
+	"glowColor":[0,229,255,255],
+	"turretOffsets":[18, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[12, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{                "length":25.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":5.0,
+					   "particleDuration":0.12,
+					   "particleCount":17,
+					   "particleColor":[150,225,200,175]},
+					   #"particleColor":[100,200,255,255]},						   
+	"projectileSpecId":"microlayer_proj",  # projectile that will be fired
+	"fireSoundTwo":"shrouded_vortex_launch",
+}

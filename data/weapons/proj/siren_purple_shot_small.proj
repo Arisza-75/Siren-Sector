@@ -1,0 +1,19 @@
+{
+	"id":"siren_purple_shot_small",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":60.0,
+	"width":20,
+	"fadeTime":0.3,
+	"fringeColor":[255,140,252,175],
+	"coreColor":[255,100,252,250],
+	"textureType":"ROUGH",  # now also used for "BALLISTIC_AS_BEAM", if specified
+	#"textureType":["graphics/fx/emp_arcs.png","graphics/fx/emp_arcs.png"],
+	"textureScrollSpeed":-256,
+	"pixelsPerTexel":2.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":false,
+	"passThroughFightersOnlyWhenDestroyed":true,
+}

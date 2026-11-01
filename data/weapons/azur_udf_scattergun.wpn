@@ -1,0 +1,29 @@
+{
+	"id":"azur_udf_scattergun",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"displayArcRadius":400,
+	"turretSprite":"graphics/weapons/UDF/azur_udf_scattergun_turret_base.png",
+	"turretGunSprite":"graphics/weapons/UDF/azur_udf_scattergun_turret_recoil.png",
+	"hardpointSprite":"graphics/weapons/UDF/azur_udf_scattergun_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/UDF/azur_udf_scattergun_hardpoint_recoil.png",	
+	"visualRecoil":5.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[23, -7,23, -7,23, -7, 23, 7, 23, 7, 23, 7],
+	"turretAngleOffsets":[0,5,-5, 0,-5,5],
+	"hardpointOffsets":[23, -7,23, -7,23, -7, 23, 7,23, 7,23, 7],
+	"hardpointAngleOffsets":[0,5,-5, 0,-5,5],
+	"separateRecoilForLinkedBarrels":true,
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":40.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":25.0,
+					   "particleSizeMin":8.0,
+					   "particleSizeRange":8.0,
+					   "particleDuration":0.12,
+					   "particleCount":46,
+					   "particleColor":[241,53,140,245]},
+	"projectileSpecId":"azur_scattergun_shot", # projectile that will be fired
+	"fireSoundTwo":"ir_pulse_laser_fire",	
+}

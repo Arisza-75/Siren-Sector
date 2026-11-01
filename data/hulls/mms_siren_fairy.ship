@@ -1,0 +1,112 @@
+{
+    "hullName": "SF-16 Siren \"Cyberfairy\" Type",
+    "hullId": "azur_siren_cyberfairy",
+    "hullSize": "FIGHTER",
+    "style": "AZUR_UDF",
+    "spriteName": "graphics/ships/fighters/azur_siren_ksg.png",
+    "height": 52,
+    "width": 62,
+    "center": [
+        31, 26
+    ],
+    "collisionRadius": 33,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 39,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS0001",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 28,
+            "angle": 0,
+            "locations": [
+                     4.5,     16.5
+            ]
+        },
+        {
+            "id": "WS0002",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 28,
+            "angle": 0,
+            "locations": [
+                     4.5,    -16.5
+            ]
+        },
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -5.5,    -12.5
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -5.5,     12.5
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       0,        0,
+                     7.5,       -5,
+                       8,        5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -23, 7
+            ],
+            "length": 42,
+            "width": 16.5,
+            "angle": 177,
+            "contrailSize": 30,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -23, -7
+            ],
+            "length": 42,
+            "width": 16.5,
+            "angle": -177,
+            "contrailSize": 30,
+            "style": "MMS_CYBER"
+        }
+    ],
+    "bounds": [
+           -22.5,      -11,
+            -5.5,    -30.5,
+            -4.5,     -9.5,
+            25.5,        0,
+            -4.5,      9.5,
+        
+            -5.5,     30.5,
+           -22.5,       11
+    ]
+}

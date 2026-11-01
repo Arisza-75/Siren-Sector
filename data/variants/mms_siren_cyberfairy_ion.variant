@@ -1,0 +1,28 @@
+{
+    "displayName": "Heavy Fighter",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "azur_siren_cyberfairy",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "azur_siren_cyberfairy_ion",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "swarmer",
+                "WS 001": "swarmer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "lightneedler",
+                "WS0002": "lightneedler"
+            }
+        }
+    ]
+}

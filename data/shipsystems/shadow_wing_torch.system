@@ -1,0 +1,18 @@
+{
+	"id":"shadow_wing_torch",
+	"type":"STAT_MOD",
+	"aiType":"ACAUSAL_DISRUPTOR",
+	
+	"statsScript":"Arisza.antix.combat.helenaMETA",
+	
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"lidar_ping",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

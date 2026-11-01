@@ -1,0 +1,30 @@
+{
+	"id":"azur_udf_lightdual",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"displayArcRadius":600,
+	"turretSprite":"graphics/weapons/UDF/azur_udf_small_turret_base.png",
+	"turretGunSprite":"graphics/weapons/UDF/azur_udf_small_turret_recoil.png",
+	"hardpointSprite":"graphics/weapons/UDF/azur_udf_small_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/UDF/azur_udf_small_hardpoint_recoil.png",	
+	"visualRecoil":7.0,  # the gun sprites are only used if this is non-0
+	"renderHints":["RENDER_BARREL_BELOW"],
+	"turretOffsets":[13, 3, 13, -3],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[13, 3, 13, -3],
+	"hardpointAngleOffsets":[0, 0],
+	"specialWeaponGlowWidth":12,
+	"specialWeaponGlowHeight":30,
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":10.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":28.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.2,
+					   "particleCount":18,
+					   "particleColor":[165,225,185,175]},
+	"projectileSpecId":"light_dp_bolt",  # projectile that will be fired
+	"fireSoundTwo":"ion_pulser_fire",
+}

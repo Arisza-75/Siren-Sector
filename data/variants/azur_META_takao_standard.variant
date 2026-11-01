@@ -1,0 +1,32 @@
+{
+    "displayName": "",
+    "fluxCapacitors": 30,
+    "fluxVents": 20,
+    "goalVariant": false,
+    "hullId": "azur_META_takao",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "azur_META_takao_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "azur_META_takaoGun",
+                "WS 013": "azur_takao_mrm",
+                "WS 014": "azur_takao_mrm",
+                "WS 003": "heavyac",
+                "WS 002": "heavyac",
+                "WS 001": "ionbeam",
+                "WS 000": "ionbeam",
+                "WS 008": "sabotpod",
+                "WS 007": "sabotpod",
+                "WS 004": "heavyneedler",
+                "WS 010": "pdlaser",
+                "WS 009": "pdlaser",
+                "WS 006": "pdlaser",
+                "WS 005": "pdlaser"
+            }
+        }
+    ]
+}

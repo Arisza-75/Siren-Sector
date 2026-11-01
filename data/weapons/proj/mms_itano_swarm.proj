@@ -1,0 +1,73 @@
+{
+	"id":"azur_udf_swarm_shot",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/udf_swarmer.png",
+	"size":[8,14],	
+	"center":[4,7],
+	"collisionRadius":10,
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[15,94,230,255], # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":50, # purely visual
+	#"alwaysAccelerate":true,
+	#"reduceDamageWhileFading":true,
+	"noCollisionWhileFading":false,
+	"useHitGlowWhenDealingDamage":false, # using the scripted rift explosion instead
+	"useHitGlowWhenDestroyed":false, # instead of the default explosion
+	"dudProbabilityOnFlameout":0,
+	"hitGlowRadius":0.01,
+	"fizzleOnReachingWeaponRange":false,					 
+	"armingTime":0.5,
+	"flameoutTime":0.2, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
+	"fadeTime":0.2, # fadeout duration			
+	"glowColor":[15,94,230,255],
+	"glowRadius":0.1,
+	"passThroughMissiles":false,
+	"passThroughFighters":false,	
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":35,			 
+					"explosionSpec":{"duration":5f, # not visual
+									 "radius":50,
+									 "coreRadius":25, # full damage within core radius
+									 "collisionClass":MISSILE_NO_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":5.0,
+									 "particleSizeRange":3.0,
+									 "particleDuration":5,
+									 "particleCount":125,
+									 "particleColor":[15,94,230,255],
+									 "detailedExplosionFlashRadius":500,
+									 "useDetailedExplosion":true,
+									 "sound":"explosion_flak"
+									 },
+					},
+	"engineSpec":{"turnAcc":1720,
+				  "turnRate":240,
+				  "acc":2500,
+				  "dec":800},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-4, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[64,223,239,255],
+						"glowSizeMult":0.5,
+						"glowAlternateColor":[64,207,239,255],
+						"contrailDuration":1,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5,
+						"contrailMaxSpeedMult":1f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0.5f, # how far away from engine it starts
+						"contrailColor":[230,200,250,100],
+						#"contrailColor":[15,94,230,100],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				     "width":7.0,
+				    "length":30.0,
+				    "angle":180.0}],
+}
+			

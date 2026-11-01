@@ -1,0 +1,91 @@
+{
+    "starSystem":"alaska",
+    "markets":[
+	  {
+            "entities":["anchorage"],
+            "faction":"AZUR_AL_UDF",
+            "size":8,
+            "freePort":false,
+
+            "startingConditions":[			
+                "population_8",
+				"cold",
+				"habitable"
+            ],
+
+            "industries":[
+				"population",
+                "heavybatteries",
+				"highcommand",
+				"orbitalworks",
+                ["starfortress_high","alpha_core"],
+                "waystation",	
+				"megaport",
+				"commerce"
+            ],
+        },
+        {
+            "entities":["rainbow_end"],
+            "faction":"AZUR_AL_UDF",
+            "size":6,
+            "freePort":true,
+
+            "startingConditions":[			
+                "population_6",
+				"habitable"
+            ],
+
+            "industries":[
+				"population",
+                ["megaport", "fullerene_spool"],
+                "waystation",
+                "patrolhq",
+                "commerce",
+				"aquaculture",
+            ],
+        },
+		{
+            "entities":["site_delta"],
+            "faction":"AZUR_AL_UDF",
+            "size":5,
+            "freePort":false,
+
+            "startingConditions":[			
+                "population_5",
+				"cold",
+				"habitable"
+            ],
+
+            "industries":[
+				"population",
+                "orbitalworks",
+                "spaceport",
+				["militarybase", "alpha_core"],
+				"heavybatteries",
+                "mining",
+            ],
+        },
+			{
+            "entities":["amahara"],
+            "faction":"AZUR_AL_UDF",
+            "size":7,
+            "freePort":false,
+
+            "startingConditions":[			
+                "population_7",
+				"habitable",
+            ],
+
+            "industries":[
+			"population",
+			"megaport",
+			"waystation",
+            ["orbitalworks", "pristine_nanoforge"],
+            "commerce",
+			["starfortress_high","alpha_core"],
+			"heavybatteries",
+			["militarybase", "alpha_core"],
+            ],
+        },
+    ],
+}

@@ -1,0 +1,53 @@
+{	# faction pairing names
+	"staticNames":{
+		"MMSYS":{
+			# vanilla factions
+			"hegemony":[""],
+			"luddic_church":[""],
+			"luddic_path":[""],
+			"persean":[""],
+			"tritachyon":[""],
+			"independent":[""],
+			"pirates":[""],
+			# modded factions
+
+		},
+
+		"azur_XVI":{
+			# vanilla factions
+			"luddic_church":["of The Holy Machine"],
+			"hegemony":["Domain "],
+			"luddic_path":[""],
+			"persean":["of free worlds"],
+			"tritachyon":["META Research Consortium"],
+			"independent":["independent protectorate"],
+			"pirates":[""],
+			# modded factions
+
+		},
+		"hegemony":{
+			"MMSYS":["Greater Hegemony"],
+		},
+		"independent":{
+			"MMSYS":[""],
+		},
+		"luddic_church":{
+			"MMSYS":[""],
+		},
+		"luddic_path":{
+			"MMSYS":[""],
+		},
+		"persean":{
+			"MMSYS":[""],
+		},
+		"pirates":{
+			"MMSYS":[""],
+		},
+	
+		"tritachyon":{
+			"sindrian_diktat":[""],
+		},
+		# modded factions
+
+	},
+}

@@ -1,0 +1,44 @@
+{
+	"numSuffixes":{
+		"st":"st",	# "twenty-first"
+		"nd":"nd",	# "twenty-second"
+		"rd":"rd",	# "twenty-third"
+		"th":"th",	# "twenty-forth" (but also "eleventh"), etc.
+	},
+	
+	"azur_AL_UDF_nameFormat":"$one $preposition $two",
+	
+	# commented out all the silly ones
+	"azur_AL_UDF_names1":[
+		"Field",
+		"System",
+		"Light",
+		"Protocol",
+		"Divergence",
+		"Process",
+		"Tower",
+		"Rose"
+	],
+	"azur_AL_UDF_names2":[
+		"Transcendance",
+		"The Ascendant",
+		"Inverse Light",
+		"The Reversed Moon",
+		"Opposite Color",
+		"The Chessboard",
+		"	",
+		"Compilation",
+		"Silence",
+		"Fire in the Sky",
+		"The Sky Realm",
+		"Hyperspace",
+		"Illusion",
+		"The Snowrealm",
+		"Light and Dark",
+		"The High Tower"
+	],
+	"azur_AL_UDF_prepositions":[
+		"of",
+		"in"
+	],
+}

@@ -1,0 +1,62 @@
+{
+	"combatSmall":{
+
+		"azur_udf_alliance_standard":7,
+
+	},
+	"combatMedium":{
+		"azur_udf_alliance_standard":4,
+
+		},
+	"combatLarge":{
+
+	},
+	"combatCapital":{
+				"azur_udf_klyatva_standard":10,
+
+
+
+				"azur_udf_flagship_standard":1,
+
+	},
+	"combatFreighterSmall":{
+	},
+	"combatFreighterMedium":{
+	},
+	"combatFreighterLarge":{
+	},
+	"carrierSmall":{
+		"azur_udf_ixion_standard":6,
+	},
+	"carrierMedium":{
+		"azur_udf_ixion_standard":6,
+
+	},
+	"carrierLarge":{
+
+		"azur_udf_flagship_standard":1,
+		"azur_udf_changkong_standard":10,
+	},
+	"phaseSmall":{
+
+	},
+	"phaseMedium":{
+	},
+	"freighterSmall":{
+
+	},
+	"freighterLarge":{
+
+	},
+	"freighterMedium":{
+
+	},
+	"tankerMedium":{
+
+	},
+		"personnelSmall":{
+
+	},
+}
+
+		

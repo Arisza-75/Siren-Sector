@@ -1,0 +1,25 @@
+{
+  "id": "al_siren", #Mod ID, should be lowercase
+  "name": "Siren Sector", #Display Name
+  "author": "Arisza", 
+  "utility": false,
+  "version": "1.0.0",
+  "description": "adds Sirens and related factions to Starsector",
+  "gameVersion": "0.98a-RC8",
+  "jars": [ "jars/Siren.jar" ],
+  "modPlugin": "Arisza.antix.sirenPlugin",
+  "dependencies": [
+    {
+      "id": "lw_lazylib",
+      "name": "LazyLib"
+    },
+    {
+      "id": "MagicLib",
+      "name": "MagicLib"
+    },
+	{
+      "id": "lunalib",
+      "name": "LunaLib"
+    },
+  ],
+}

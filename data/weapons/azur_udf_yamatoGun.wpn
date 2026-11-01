@@ -1,0 +1,33 @@
+{  
+  	"id":"azur_udf_yamatoGun",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"mountTypeOverride":"HYBRID",
+	"size":"LARGE",
+	"displayArcRadius":450,
+	"turretGunSprite": "graphics/weapons/UDF/azur_udf_yamatogun_recoil.png",
+	"turretSprite": "graphics/weapons/UDF/azur_udf_yamatogun_base.png",	
+	"hardpointSprite":"graphics/weapons/UDF/azur_udf_yamatogun_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/UDF/azur_udf_yamatogun_hardpoint_recoil.png",
+	"visualRecoil":10.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"glowColor":[255,185,215,215],
+	"turretOffsets": [42,-8,42,0,42,8],
+	"turretAngleOffsets":[0,0, 0],
+	"hardpointOffsets":[42,-8,42,0,42,8],
+	"autocharge":true, 
+	"hardpointAngleOffsets":[0, 0,0],
+	"barrelMode":"ALTERNATING", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":35.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":3.0,
+					   "particleSizeMin":22.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.72,
+					   "particleCount":52,
+					   "particleColor":[100,100,255,255]},		
+					   #"particleColor":[155,185,
+					   
+	"projectileSpecId":"UDF_yamato_sabot",  # projectile that will be fired
+	"fireSoundTwo":"heavy_adjudicator_fire",
+}

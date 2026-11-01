@@ -1,0 +1,23 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "azur_udf_alliance",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "azur_udf_alliance_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "udf_MainGunS",
+                "WS 001": "azur_udf_lightdual",
+                "WS 003": "azur_udf_lightdual",
+                "WS 000": "azur_udf_lightdual",
+                "WS 002": "azur_udf_lightdual"
+            }
+        }
+    ]
+}

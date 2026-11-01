@@ -1,0 +1,5 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+mms_siren_ksg_ion_wing,mms_siren_cyberfairy_ion,"xvi_bp,attack_at_an_angle",2,0.5,10,12,V,4000,700,300,3,FIGHTER,Fighter,10,2000,,,,,,,,,,,,,1
+azur_xvi_drone_wing,azur_xvi_drone_standard,"xvi_bp,attack_at_an_angle,auto_fighter, wingmen_no_swarm, rapid_reform, ",1,0.1,6,4,BOX,4000,500,30,6,INTERCEPTOR,Combat Drone ,6,2000,,,,,,,,,,,,,1
+azur_udf_bomber_wing,azur_udf_bomber_standard,"udf_bp,attack_at_an_angle, rapid_reform",0,,3,8,V,4000,200,600,6,FIGHTER,Interceptor,5,2000,,,,,,,,,,,,,6
+azur_udf_heavyfighter_wing,azur_udf_heavyfighter_standard,"udf_bp,attack_at_an_angle, rapid_reform",2,0.5,10,12,V,4000,700,300,3,FIGHTER,Fighter,10,2000,,,,,,,,,,,,,1

@@ -1,0 +1,17 @@
+{
+"designTypeColors":{
+		"Framework of Logic":[54,66,247,255],
+		"Torch of Victory":[213,0,36,255],
+		"Siren Basic System":[255,0,60,255],
+		"War Protocol Series":[50,65,103,255],
+		"Orochi":[255,0,60,255],
+		"Arbiter: The Tower XVI":[249,107,72,255],
+		
+    },
+"graphics":{
+        "fx":{
+            #Ship Lights
+			"UDF_yamato_sabot_fx":"graphics/fx/UDF_yamato_sabot_fx.png",
+        },
+	}
+}	
