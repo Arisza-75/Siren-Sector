@@ -154,5 +154,42 @@
 		"dHullOverlayMedium":"graphics/damage/dmod_overlay_hightech_medium.png",
 		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_hightech_heavy.png",
 	},
-
+"AZUR_SIREN_BASIC_HULL":{
+		"hyperspaceJitterColor":[255,0,60,255],
+		"baseCampaignExplosionColor":[255,45,20,200],
+		"baseCombatExplosionColor":[255,45,20,255], # smooth flash
+		"combatExplosionNonFlashColorOverride":[255,45,20,255], # the more billowy explosion
+		"fighterRepairFlickerColor":[255,0,60,255],
+		"fighterChipIconColor":[255,0,60,255],
+		"weaponDisabledExplosionColor":[255,45,20,255],
+		"shieldRingColor":[255,0,60,255],
+		"shieldInnerColor":[255,0,60,75],
+		"fluxVentCoreColor":[255,0,60,255],
+		"fluxVentFringeColor":[255,0,85,255],
+		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
+		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		#"colorShiftCovers":true,
+		"coversColorShiftAmount":1,  # 0 to 1
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/fx/empty.png",
+		"slotCoverSmallHardpoint":"graphics/fx/empty.png",
+		"slotCoverMediumTurret":"graphics/fx/empty.png",
+		"slotCoverMediumHardpoint":"graphics/fx/empty.png",
+		"slotCoverLargeTurret":"graphics/fx/empty.png",
+		"slotCoverLargeHardpoint":"graphics/fx/empty.png",
+		
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_hightech_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_hightech_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_hightech_heavy.png",
+	},
 }

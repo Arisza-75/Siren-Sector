@@ -26,7 +26,7 @@ public class microlayerShroudHullmod extends BaseHullMod {
 
     static {
         //SHIP_CREATORS.put("shrouded_tendril", new TestDwellerShipCreator());
-        SHIP_CREATORS.put("mms_microlayer", new MicrolayerShipShroud());
+        SHIP_CREATORS.put("", new MicrolayerShipShroud());
 
     }
 
